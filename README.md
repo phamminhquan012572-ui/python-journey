@@ -1,4 +1,4 @@
-# Python Journey 🐍
+# Python Journey 🐍 
 
 > **Python cơ bản theo hướng học qua làm — từ zero đến một chương trình có thể kiểm chứng.**
 
