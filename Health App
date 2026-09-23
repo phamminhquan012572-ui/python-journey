@@ -1,0 +1,897 @@
+📌 Giới thiệu
+Health App là một ứng dụng hỗ trợ quản lý lối sống cá nhân.
+
+Ứng dụng hướng tới việc giúp người dùng:
+
+🥗 Xây dựng kế hoạch ăn uống phù hợp với mục tiêu.
+
+🏋️ Xây dựng kế hoạch luyện tập.
+
+😴 Sắp xếp thời gian ngủ và nghỉ ngơi.
+
+🗓️ Quản lý lịch sinh hoạt hằng ngày.
+
+📊 Theo dõi quá trình thay đổi của bản thân.
+
+🤖 Nhận các gợi ý cá nhân hóa thông qua hệ thống recommendation và AI.
+
+Mục tiêu của dự án là tạo ra một trợ lý sức khỏe cá nhân, giúp người dùng biến các mục tiêu sức khỏe thành những kế hoạch cụ thể và dễ thực hiện.
+
+⚠️ Disclaimer: Health App là ứng dụng hỗ trợ lối sống và giáo dục sức khỏe, không thay thế bác sĩ, chuyên gia dinh dưỡng hoặc chẩn đoán/điều trị y tế.
+
+🎯 Problem Statement
+Trong cuộc sống hiện đại, nhiều người muốn sống khỏe mạnh nhưng gặp khó khăn trong việc duy trì một lịch sinh hoạt hợp lý.
+
+Các vấn đề phổ biến:
+
+Không biết nên ăn gì.
+
+Không biết nên tập luyện như thế nào.
+
+Không có lịch sinh hoạt ổn định.
+
+Khó cân bằng giữa công việc/học tập, ăn uống, luyện tập và nghỉ ngơi.
+
+Không theo dõi được tiến trình.
+
+Có kế hoạch nhưng khó duy trì lâu dài.
+
+Health App giải quyết vấn đề này bằng cách kết hợp:
+
+User Profile
+     ↓
+Health Goal
+     ↓
+Daily Schedule
+     ↓
+Meal Plan
+     ↓
+Workout Plan
+     ↓
+Daily Tracking
+     ↓
+Progress Analysis
+     ↓
+Personalized Recommendation
+
+🎯 Project Goals
+Mục tiêu chính
+Xây dựng một ứng dụng có khả năng:
+
+Quản lý hồ sơ người dùng.
+
+Xác định mục tiêu sức khỏe.
+
+Tạo lịch sinh hoạt hằng ngày.
+
+Gợi ý thực đơn.
+
+Gợi ý kế hoạch luyện tập.
+
+Theo dõi tiến trình.
+
+Cá nhân hóa kế hoạch.
+
+Hỗ trợ người dùng thông qua AI.
+
+👥 Target Users
+Phiên bản đầu tiên tập trung vào:
+
+Người trưởng thành muốn xây dựng lối sống lành mạnh và quản lý cân nặng.
+
+Trong các phiên bản tương lai, ứng dụng có thể mở rộng cho:
+
+Người muốn tăng cân.
+
+Người muốn duy trì cân nặng.
+
+Người mới bắt đầu tập luyện.
+
+Người muốn cải thiện thói quen ngủ.
+
+Người muốn quản lý chế độ ăn.
+
+Người có lịch học/làm việc bận rộn.
+
+🚀 MVP — Minimum Viable Product
+Phiên bản đầu tiên sẽ tập trung vào 6 chức năng chính.
+
+1. 👤 User Profile
+Người dùng có thể nhập:
+
+Tên
+
+Tuổi
+
+Chiều cao
+
+Cân nặng
+
+Mức độ hoạt động
+
+Mục tiêu
+
+Thời gian thức dậy
+
+Thời gian đi ngủ
+
+Thời gian rảnh
+
+2. 🎯 Health Goal
+Người dùng lựa chọn mục tiêu:
+
+Weight Loss
+Weight Gain
+Maintain Weight
+Healthy Lifestyle
+Improve Fitness
+
+Mục tiêu sẽ được sử dụng để xây dựng kế hoạch cá nhân hóa.
+
+3. 🗓️ Daily Schedule
+Ứng dụng xây dựng lịch:
+
+06:30  Wake Up
+07:00  Breakfast
+08:00  Work / Study
+12:00  Lunch
+13:00  Rest
+17:30  Workout
+19:00  Dinner
+22:30  Relax
+23:00  Sleep
+
+Người dùng có thể:
+
+Thêm hoạt động.
+
+Chỉnh sửa.
+
+Xóa.
+
+Thay đổi thời gian.
+
+Đánh dấu hoàn thành.
+
+4. 🥗 Meal Recommendation
+Ứng dụng cung cấp:
+
+Bữa sáng.
+
+Bữa trưa.
+
+Bữa tối.
+
+Bữa phụ.
+
+Mỗi món ăn có thông tin:
+
+Name
+Calories
+Protein
+Carbohydrates
+Fat
+Category
+Meal Type
+Ingredients
+
+Người dùng có thể:
+
+View meal
+Change meal
+View nutrition
+Save meal
+
+5. 🏋️ Workout Plan
+Ứng dụng cung cấp các bài tập dựa trên:
+
+Mục tiêu.
+
+Mức độ vận động.
+
+Thời gian rảnh.
+
+Độ khó.
+
+Ví dụ:
+
+Today's Workout
+
+Squat       3 × 12
+Push-up     3 × 10
+Plank       3 × 30 sec
+
+Duration: 30 minutes
+
+6. 📊 Progress Tracking
+Người dùng có thể theo dõi:
+
+Cân nặng.
+
+Số buổi tập.
+
+Thời gian ngủ.
+
+Số bước chân.
+
+Lượng nước.
+
+Mức độ hoàn thành kế hoạch.
+
+Ví dụ:
+
+Weight
+
+75 kg
+  │
+  │ ●
+74 │   ●
+  │      ●
+73 │
+  └────────────
+
+🤖 Future Features
+Sau khi hoàn thành MVP, dự án sẽ tiếp tục phát triển.
+
+AI Health Assistant
+Người dùng có thể trò chuyện với AI:
+
+User:
+Tối nay tôi nên ăn gì?
+
+AI:
+Dựa trên kế hoạch hôm nay và mục tiêu
+của bạn, bạn có thể lựa chọn...
+
+AI có thể hỗ trợ:
+
+Gợi ý món ăn.
+
+Thay đổi thực đơn.
+
+Điều chỉnh lịch.
+
+Giải thích thông tin dinh dưỡng.
+
+Gợi ý bài tập.
+
+Trả lời câu hỏi về ứng dụng.
+
+AI không được sử dụng để chẩn đoán bệnh hoặc thay thế tư vấn y tế chuyên môn.
+
+🧠 Recommendation Engine
+Hệ thống recommendation sẽ sử dụng:
+
+User Profile
++
+Health Goal
++
+Schedule
++
+Food Preferences
++
+Exercise Preferences
++
+Progress
+
+để tạo:
+
+Personalized Meal Plan
++
+Personalized Workout Plan
++
+Personalized Daily Schedule
+
+Ví dụ:
+
+IF goal = weight_loss
+AND activity_level = beginner
+AND workout_time <= 30 minutes
+
+THEN
+
+Recommend:
+- Beginner workout
+- Moderate duration
+- Appropriate meal options
+
+🔔 Notification System
+Ứng dụng có thể gửi nhắc nhở:
+
+06:30 ☀️ Wake up
+
+07:00 🍳 Breakfast
+
+12:00 🍚 Lunch
+
+17:30 🏃 Workout
+
+19:00 🥗 Dinner
+
+22:30 🌙 Prepare for sleep
+
+23:00 😴 Sleep
+
+Người dùng có thể bật/tắt từng loại thông báo.
+
+🏗️ System Architecture
+Kiến trúc dự kiến:
+
+                   ┌───────────────┐
+                   │   Mobile/Web  │
+                   │      App      │
+                   └───────┬───────┘
+                           │
+                           ▼
+                   ┌───────────────┐
+                   │   REST API    │
+                   │    Backend    │
+                   └───────┬───────┘
+                           │
+              ┌────────────┼────────────┐
+              │            │            │
+              ▼            ▼            ▼
+        ┌──────────┐ ┌──────────┐ ┌──────────┐
+        │ Database │ │   AI     │ │  Auth    │
+        │          │ │ Service  │ │ Service  │
+        └──────────┘ └──────────┘ └──────────┘
+
+🛠️ Technology Stack
+Stack có thể được điều chỉnh trong quá trình phát triển.
+
+Frontend
+React / React Native
+
+HTML
+
+CSS
+
+JavaScript / TypeScript
+
+Backend
+Node.js
+
+Express.js
+
+REST API
+
+Database
+PostgreSQL
+
+Authentication
+JWT
+
+Password hashing
+
+AI
+AI API
+
+Development Tools
+Git
+
+GitHub
+
+VS Code
+
+Postman
+
+Figma
+
+🗄️ Database Design
+Database dự kiến gồm:
+
+users
+user_profiles
+goals
+foods
+exercises
+meal_plans
+workout_plans
+daily_schedules
+progress
+notifications
+
+Relationship
+users
+  │
+  ├──────── user_profiles
+  │
+  ├──────── goals
+  │
+  ├──────── daily_schedules
+  │
+  ├──────── meal_plans
+  │
+  ├──────── workout_plans
+  │
+  └──────── progress
+
+🔌 API Design
+Authentication
+POST /api/auth/register
+POST /api/auth/login
+POST /api/auth/logout
+
+User
+GET /api/users/me
+PUT /api/users/me
+
+Schedule
+GET /api/schedule/today
+POST /api/schedule
+PUT /api/schedule/:id
+DELETE /api/schedule/:id
+
+Food
+GET /api/foods
+GET /api/foods/:id
+
+Meal Plan
+GET /api/meal-plan/today
+POST /api/meal-plan
+PUT /api/meal-plan/:id
+
+Workout
+GET /api/exercises
+GET /api/workout-plan/today
+POST /api/workout-plan
+PUT /api/workout-plan/:id
+
+Progress
+GET /api/progress
+POST /api/progress
+GET /api/progress/summary
+
+AI
+POST /api/ai/chat
+
+📱 Main Screens
+Ứng dụng dự kiến có các màn hình:
+
+1. Splash Screen
+2. Login
+3. Register
+4. Onboarding
+5. Profile
+6. Home / Dashboard
+7. Daily Schedule
+8. Meal Plan
+9. Food Detail
+10. Workout Plan
+11. Exercise Detail
+12. Progress
+13. AI Assistant
+14. Notifications
+15. Settings
+
+🔄 User Flow
+                START
+                  │
+                  ▼
+              Register
+                  │
+                  ▼
+               Login
+                  │
+                  ▼
+             Onboarding
+                  │
+                  ▼
+           Enter Profile
+                  │
+                  ▼
+            Select Goal
+                  │
+                  ▼
+         Generate Initial Plan
+                  │
+                  ▼
+              Dashboard
+                  │
+        ┌─────────┼─────────┐
+        ▼         ▼         ▼
+      Meals     Workout   Schedule
+        │         │         │
+        └─────────┼─────────┘
+                  ▼
+              Daily Check
+                  │
+                  ▼
+           Track Progress
+                  │
+                  ▼
+          Recommendation
+                  │
+                  ▼
+            New Plan
+
+📅 Development Roadmap
+Phase 1 — Planning
+Week 1
+ Define problem.
+
+ Define target users.
+
+ Define MVP.
+
+ Write requirements.
+
+ Create user flow.
+
+ Create use cases.
+
+Phase 2 — Design
+Week 2
+ Design UI/UX.
+
+ Design database.
+
+ Create ERD.
+
+ Design API.
+
+ Create project architecture.
+
+Phase 3 — Backend Foundation
+Week 3
+ Setup Node.js.
+
+ Setup Express.
+
+ Setup PostgreSQL.
+
+ Configure environment variables.
+
+ Create database.
+
+ Create initial API.
+
+ Setup Git workflow.
+
+Phase 4 — Authentication
+Week 4
+ Register.
+
+ Login.
+
+ Logout.
+
+ Password hashing.
+
+ JWT authentication.
+
+ User profile.
+
+ Onboarding.
+
+Phase 5 — Schedule
+Week 5
+ Daily schedule.
+
+ Calendar.
+
+ Create schedule.
+
+ Edit schedule.
+
+ Delete schedule.
+
+ Complete task.
+
+Phase 6 — Nutrition
+Week 6
+ Food database.
+
+ Food API.
+
+ Meal plan.
+
+ Breakfast.
+
+ Lunch.
+
+ Dinner.
+
+ Snack.
+
+ Change meal.
+
+Phase 7 — Workout
+Week 7
+ Exercise database.
+
+ Exercise API.
+
+ Workout plan.
+
+ Workout detail.
+
+ Workout tracking.
+
+Phase 8 — Progress
+Week 8
+ Weight tracking.
+
+ Workout tracking.
+
+ Sleep tracking.
+
+ Water tracking.
+
+ Progress dashboard.
+
+ Charts.
+
+Phase 9 — Recommendation
+Week 9
+ Create recommendation engine.
+
+ Goal-based recommendations.
+
+ Schedule-based recommendations.
+
+ Food preference filtering.
+
+ Workout recommendations.
+
+ Personalized daily plan.
+
+Phase 10 — AI
+Week 10
+ AI service.
+
+ AI chat.
+
+ Meal suggestions.
+
+ Workout suggestions.
+
+ Schedule adjustment.
+
+ Safety boundaries.
+
+Phase 11 — Testing
+Week 11
+ Unit testing.
+
+ API testing.
+
+ UI testing.
+
+ Authentication testing.
+
+ Database testing.
+
+ Error handling.
+
+ Security review.
+
+Phase 12 — Release
+Week 12
+ Production database.
+
+ Deploy backend.
+
+ Deploy frontend.
+
+ Configure environment.
+
+ Create demo account.
+
+ Beta testing.
+
+ Collect feedback.
+
+ Fix bugs.
+
+ Release v1.0.
+
+📊 MVP Success Criteria
+MVP được xem là hoàn thành khi người dùng có thể:
+
+Register
+   ↓
+Create Profile
+   ↓
+Select Goal
+   ↓
+Receive Daily Plan
+   ↓
+View Meal Plan
+   ↓
+View Workout Plan
+   ↓
+Complete Activities
+   ↓
+Track Progress
+
+Các chức năng trên phải hoạt động end-to-end.
+
+🧪 Testing Strategy
+Dự án sẽ áp dụng nhiều lớp kiểm thử.
+
+Backend
+Unit tests.
+
+API tests.
+
+Authentication tests.
+
+Validation tests.
+
+Frontend
+Component tests.
+
+User flow tests.
+
+Responsive testing.
+
+Database
+Data validation.
+
+Relationship testing.
+
+Constraint testing.
+
+Security
+Password hashing.
+
+JWT validation.
+
+Input validation.
+
+Authorization.
+
+Environment variable protection.
+
+🔐 Security
+Các nguyên tắc bảo mật:
+
+Không lưu password dạng plaintext.
+
+Không commit secret/API key lên GitHub.
+
+Sử dụng .env.
+
+Validate dữ liệu từ người dùng.
+
+Kiểm tra authorization ở backend.
+
+Không expose thông tin nhạy cảm.
+
+Không đưa dữ liệu cá nhân không cần thiết vào AI prompt.
+
+Có cơ chế xóa tài khoản và dữ liệu người dùng.
+
+File .env phải được thêm vào .gitignore.
+
+.env
+node_modules/
+dist/
+build/
+
+📁 Project Structure
+Dự kiến:
+
+health-app/
+│
+├── frontend/
+│   ├── components/
+│   ├── pages/
+│   ├── services/
+│   ├── hooks/
+│   └── utils/
+│
+├── backend/
+│   ├── controllers/
+│   ├── routes/
+│   ├── services/
+│   ├── models/
+│   ├── middleware/
+│   └── utils/
+│
+├── database/
+│   ├── migrations/
+│   └── seeds/
+│
+├── docs/
+│   ├── requirements.md
+│   ├── use-cases.md
+│   ├── database.md
+│   └── api.md
+│
+├── .gitignore
+├── README.md
+└── package.json
+
+🌱 Future Development
+Sau phiên bản MVP, dự án có thể mở rộng:
+
+📱 Mobile application.
+
+⌚ Wearable integration.
+
+❤️ Heart-rate tracking.
+
+💤 Sleep tracking.
+
+🚶 Step tracking.
+
+🥘 Recipe database.
+
+🤖 Advanced AI Assistant.
+
+📈 Advanced analytics.
+
+🔔 Smart notifications.
+
+🌐 Multi-language.
+
+👥 Community.
+
+🏆 Challenges & achievements.
+
+📌 Development Principles
+Dự án tuân theo một số nguyên tắc:
+
+1. MVP First
+Không xây quá nhiều chức năng ngay từ đầu.
+
+2. Data First
+AI và recommendation phải dựa trên dữ liệu có cấu trúc.
+
+3. User First
+Mọi chức năng phải giải quyết một vấn đề thực tế của người dùng.
+
+4. Privacy First
+Dữ liệu sức khỏe và thông tin cá nhân phải được xử lý cẩn thận.
+
+5. Safety First
+Ứng dụng hỗ trợ sức khỏe nhưng không thay thế chuyên gia y tế.
+
+6. Clean Code
+Code phải dễ đọc, dễ test và dễ mở rộng.
+
+📈 Project Milestones
+[ ] M1 — Project Planning
+[ ] M2 — UI/UX Design
+[ ] M3 — Database
+[ ] M4 — Backend
+[ ] M5 — Authentication
+[ ] M6 — Schedule
+[ ] M7 — Nutrition
+[ ] M8 — Workout
+[ ] M9 — Progress
+[ ] M10 — Recommendation
+[ ] M11 — AI
+[ ] M12 — Testing
+[ ] M13 — Deployment
+[ ] M14 — Version 1.0
+
+📝 Current Status
+Version: 0.1.0
+
+Status: 🚧 In Development
+
+Planning       ██████████░░░░░░░░ 50%
+Design         █████░░░░░░░░░░░░░ 25%
+Backend        ░░░░░░░░░░░░░░░░░░  0%
+Frontend       ░░░░░░░░░░░░░░░░░░  0%
+AI             ░░░░░░░░░░░░░░░░░░  0%
+Testing        ░░░░░░░░░░░░░░░░░░  0%
+Deployment     ░░░░░░░░░░░░░░░░░░  0%
+
+🤝 Contribution
+Dự án hiện đang trong quá trình phát triển.
+
+Trong tương lai, contribution guideline sẽ được bổ sung.
+
+📄 License
+License sẽ được xác định trước khi phát hành phiên bản chính thức.
+
+👨‍💻 Author
+Your Name
+
+Health App — Personal Health & Lifestyle Assistant
+
+"Small habits, better days."
