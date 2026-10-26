@@ -1,370 +1,114 @@
-🐍 Python Journey
-Learn Python by building things.
-Từ zero → viết chương trình → test → debug → hoàn thiện project
+# 🐍 Python Journey
 
-<br> <a href="https://www.python.org/"> <img src="https://img.shields.io/badge/Python-3.12%2B-3776AB?style=for-the-badge&logo=python&logoColor=white"> </a> <a href="LICENSE"> <img src="https://img.shields.io/badge/License-MIT-22c55e?style=for-the-badge"> </a> <a href="#-lộ-trình-15-tuần"> <img src="https://img.shields.io/badge/Duration-15%20Weeks-f59e0b?style=for-the-badge"> </a> <a href="#-đối-tượng"> <img src="https://img.shields.io/badge/Level-Beginner-6366f1?style=for-the-badge"> </a>
-<br><br>
+**Lộ trình học Python từ cơ bản đến tự làm được một project nhỏ — trong 15 tuần.**
 
-<img src="assets/banner.png" alt="Python Journey" width="900">
-<br><br>
+Repository này giúp bạn học từng bước: đọc kiến thức, thực hành viết code, chạy kiểm tra, sửa lỗi và lưu lại quá trình học trên GitHub.
 
-Learn → Build → Test → Debug → Improve → Commit → Prove
+> **Nguyên tắc học:** Đừng chỉ sao chép code. Hãy tự chạy, tự sửa và cố gắng giải thích được code mình viết.
 
-</div>
-<div align="center">
-🧭 Navigation
-📖 Overview ·
-🧠 Philosophy ·
-🗺️ Roadmap ·
-🎯 Outcomes ·
-📁 Structure ·
-🚀 Start
+---
 
-</div>
-🐍 Python Journey
-Python cơ bản theo hướng học qua làm — từ zero đến một chương trình có thể kiểm chứng.
+## 🚀 Bắt đầu tại đây
 
-Python Journey là chương trình học Python nền tảng kéo dài 15 tuần, được thiết kế cho người mới bắt đầu.
+Nếu bạn mới học hoặc chưa biết nên mở file nào, hãy làm theo thứ tự:
 
-Thay vì:
+1. **[SETUP.md](SETUP.md)** — kiểm tra/cài Python, VS Code và Git.
+2. **[Bài học Tuần 01](weeks/week-01-hello-python/README.md)** — bắt đầu từ chương trình Python đầu tiên.
+3. **[PROGRESS.md](PROGRESS.md)** — đánh dấu những nội dung đã hoàn thành.
+4. **[SYLLABUS.md](SYLLABUS.md)** — xem chi tiết toàn bộ lộ trình 15 tuần.
 
-Đọc syntax
-    ↓
-Học hết lý thuyết
-    ↓
-Cuối khóa mới làm project
+Nếu bạn đã cài đủ công cụ, có thể mở thẳng tuần đang học.
 
-chúng ta học theo vòng lặp:
+## 🗺️ Lộ trình 15 tuần
 
-┌─────────────┐
-│   Problem   │
-└──────┬──────┘
-       ↓
-┌─────────────┐
-│   Concept   │
-└──────┬──────┘
-       ↓
-┌─────────────┐
-│    Build    │
-└──────┬──────┘
-       ↓
-┌─────────────┐
-│    Test     │
-└──────┬──────┘
-       ↓
-┌─────────────┐
-│    Debug    │
-└──────┬──────┘
-       ↓
-┌─────────────┐
-│   Improve   │
-└──────┬──────┘
-       ↓
-┌─────────────┐
-│    Prove    │
-└──────┬──────┘
-       │
-       └──────────────→ 🔁 Repeat
+| Tuần | Nội dung | Bạn sẽ học cách |
+|---|---|---|
+| 01 | Môi trường, Terminal, Git/GitHub | Chạy chương trình Python đầu tiên |
+| 02 | Biến, kiểu dữ liệu, nhập/xuất | Nhận dữ liệu và tính toán |
+| 03 | Điều kiện, Boolean, kiểm tra input | Để chương trình đưa ra quyết định |
+| 04 | Chuỗi, xử lý văn bản, Regex | Tìm và xử lý nội dung văn bản |
+| 05 | List, tuple | Lưu và quản lý nhiều dữ liệu |
+| 06 | Vòng lặp | Xử lý dữ liệu nhiều lần |
+| 07 | Hàm, scope, type hints | Chia bài toán thành các phần nhỏ |
+| 08 | Dictionary, set, dữ liệu lồng nhau | Chọn cách lưu dữ liệu phù hợp |
+| 09 | **Midterm Project** | Kết hợp kiến thức tuần 01–08 |
+| 10 | File, pathlib, CSV, JSON | Đọc và lưu dữ liệu |
+| 11 | Exception, traceback, debugging | Đọc lỗi và tìm cách sửa |
+| 12 | Testing với pytest | Tự động kiểm tra chương trình |
+| 13 | Module, package, CLI, API/HTTP | Chia code thành module và làm quen HTTP |
+| 14 | OOP, composition, inheritance | Tổ chức code bằng class khi phù hợp |
+| 15 | **Capstone Project** | Hoàn thiện project tổng kết |
 
-🧭 Vị trí trong Learning Path
-<div align="center">
-                    CocAgent Python Learning Path
+Xem nội dung và mục tiêu chi tiết trong [SYLLABUS.md](SYLLABUS.md).
 
-        ┌───────────────────────────────────────────┐
-        │  ① PYTHON JOURNEY                         │
-        │     Python nền tảng · 15 tuần             │
-        │     ⭐ BẠN ĐANG Ở ĐÂY                     │
-        └─────────────────────┬─────────────────────┘
-                              ↓
-        ┌───────────────────────────────────────────┐
-        │  ② PYTHON MASTERY                        │
-        │     Python chuyên sâu                     │
-        └─────────────────────┬─────────────────────┘
-                              ↓
-        ┌───────────────────────────────────────────┐
-        │  ③ DSA WITH PYTHON                       │
-        │     Cấu trúc dữ liệu & thuật toán         │
-        └─────────────────────┬─────────────────────┘
-                              ↓
-        ┌───────────────────────────────────────────┐
-        │  ④ DATA PYTHON                           │
-        │     Phân tích dữ liệu                     │
-        └───────────────────────────────────────────┘
+## 📖 Cách học một tuần
 
-Đầu vào: Không yêu cầu kinh nghiệm lập trình.
+Khi mở thư mục của tuần, hãy làm theo hướng dẫn trong README của tuần đó. Thông thường, bạn có thể học theo thứ tự:
 
-</div>
-🧠 Triết lý học
-<div align="center">
-🔨 Build	🧪 Test	🐛 Debug	💡 Understand
-Học qua làm	Có bằng chứng	Sửa có phương pháp	Giải thích được
+1. **Đọc README** để biết mục tiêu của tuần.
+2. **Đọc notes và chạy examples** để hiểu kiến thức mới.
+3. **Tự làm exercises** trước khi xem gợi ý.
+4. **Xem hints** nếu thật sự bị mắc.
+5. **Chạy checks/tests** nếu tuần đó có cung cấp.
+6. **Làm mini-project** để luyện kết hợp kiến thức.
+7. **Lưu tiến độ bằng Git** và cập nhật [PROGRESS.md](PROGRESS.md).
 
-</div>
-01 · Học qua làm
-Khái niệm mới phải được sử dụng ngay trong bài tập, challenge hoặc mini-project.
+Tên và số lượng file có thể khác nhau giữa các tuần; README trong từng thư mục là nơi hướng dẫn cụ thể.
 
-02 · Đúng phải có bằng chứng
-Không chỉ nhìn output rồi đoán chương trình đúng.
+### 🔁 Vòng lặp học tập
 
-Self-check
-    ↓
-Test
-    ↓
-Edge case
-    ↓
-Debug
-    ↓
-Confidence
+```text
+Đọc hiểu → Tự viết code → Chạy thử → Kiểm tra → Sửa lỗi → Cải thiện → Lưu tiến độ
+```
 
-03 · Đơn giản nhưng đáng tin cậy
-Không nhồi kỹ thuật chỉ để code trông “nâng cao”.
+**Đừng chỉ nhìn kết quả rồi kết luận code đúng.** Hãy thử thêm dữ liệu bình thường, dữ liệu ở giới hạn và dữ liệu không hợp lệ.
 
-Mục tiêu:
+## 🧰 Công cụ cần có
 
-Simple → Clear → Testable → Explainable
+- **Python 3.12 trở lên**
+- **Visual Studio Code**
+- **Python extension** trong VS Code
+- **Git** và tài khoản GitHub
 
-👥 Đối tượng
-🟢 Phù hợp
-👶 Chưa từng lập trình.
-🎓 Học sinh, sinh viên bắt đầu.
-🔄 Biết ngôn ngữ khác và muốn học Python bài bản.
-🌱 Muốn hình thành workflow Git/GitHub từ đầu.
-🚀 Muốn xây nền tảng trước khi học DSA, Data hoặc AI.
-🟡 Chưa phù hợp
-Đã thành thạo Python và cần nội dung nâng cao.
-Chỉ cần tra cứu nhanh một API.
-Muốn đi thẳng vào framework/AI mà bỏ qua nền tảng.
-⏱️ Thời lượng đề nghị: 7–10 giờ / tuần
+Hướng dẫn cài đặt và xử lý lỗi thường gặp: [SETUP.md](SETUP.md). Bạn không cần cài tất cả công cụ tùy chọn để bắt đầu.
 
-🗺️ Lộ trình 15 tuần
-<div align="center">
-🌱 PHASE 1
-Khởi đầu
-</div>
-#	Chủ đề	🎯 Trọng tâm
-01	Environment · REPL · Terminal · Git/GitHub · Hello Python	🚀 Chương trình đầu tiên + commit đầu tiên
-02	Variables · Types · Input/Output	📥 Nhập & xử lý dữ liệu
-03	Conditionals · Boolean · Input validation	🛡️ Ra quyết định & bảo vệ input
+## 📂 Những file quan trọng
 
-<br> <div align="center">
-🧩 PHASE 2
-Dữ liệu & tư duy chương trình
-</div>
-#	Chủ đề	🎯 Trọng tâm
-04	Strings · Text processing · Regex	🔎 Text Analyzer
-05	Lists · Tuples · Mutability · Unpacking	📦 Dữ liệu tuần tự
-06	Loops · enumerate · zip · comprehensions	🔁 Lặp có chủ đích
-07	Functions · Decomposition · Scope · Type hints	🧰 Utility Toolkit
-08	Dict · Set · Nested data · Data modeling	📊 Word/Data Counter
+| File | Dùng để làm gì? |
+|---|---|
+| [README.md](README.md) | Trang tổng quan và hướng dẫn bắt đầu |
+| [SETUP.md](SETUP.md) | Cài đặt môi trường học |
+| [SYLLABUS.md](SYLLABUS.md) | Đề cương chi tiết 15 tuần |
+| [PROGRESS.md](PROGRESS.md) | Checklist theo dõi tiến độ |
+| [STYLE_GUIDE.md](STYLE_GUIDE.md) | Quy tắc viết code dễ đọc |
+| [FINAL_PROJECT.md](FINAL_PROJECT.md) | Yêu cầu project cuối khóa |
 
-🏆 Week 09 · Midterm Project
-<div align="center">
-W01 → W08
-Learn · Build · Test · Debug
+## ✅ Cách biết mình đã học tốt một bài
 
-⬇️
+Trước khi chuyển sang nội dung tiếp theo, hãy tự hỏi:
 
-🏆 MIDTERM
-Một chương trình console có cấu trúc
+- [ ] Mình hiểu bài này dùng để giải quyết vấn đề gì.
+- [ ] Mình tự chạy được ví dụ.
+- [ ] Mình tự làm bài tập mà không sao chép toàn bộ lời giải.
+- [ ] Mình đã thử ít nhất một trường hợp khác với ví dụ.
+- [ ] Nếu code lỗi, mình biết đọc thông báo lỗi và tìm dòng cần kiểm tra.
+- [ ] Mình có thể giải thích code bằng lời của mình.
 
-</div>
-Trọng tâm
-🧩 Phân rã vấn đề.
-🗃️ Thiết kế dữ liệu.
-🔧 Thiết kế hàm.
-🌿 Git history.
-🧪 Kiểm chứng hành vi.
-💬 Giải thích code.
-<div align="center">
-🛠️ PHASE 3
-Viết chương trình đáng tin cậy
-</div>
-#	Chủ đề	🎯 Trọng tâm
-10	File · pathlib · CSV · JSON	💾 Data persistence
-11	Exceptions · Tracebacks · Debugging	🐛 Debug có phương pháp
-12	Testing with pytest	🧪 Normal · Edge · Invalid
-13	Modules · Packages · Dependencies · CLI · API/HTTP	🌐 Multi-module app
-14	OOP · Composition · Basic inheritance	🧱 Mô hình hóa bằng class
+Không cần hiểu hoàn hảo ngay lần đầu. Nếu chưa làm được, hãy xem lại ví dụ, thử lại rồi đánh dấu khi đã hiểu.
 
-🎓 Week 15 · Capstone Project
-<div align="center">
-🚀 BUILD SOMETHING REAL
-Một chương trình Python hoàn chỉnh
+## 🎯 Mục tiêu sau 15 tuần
 
-</div>
-✅ Definition of Done
-☐ Vấn đề & phạm vi rõ ràng
-☐ ≥ 4 chức năng có ý nghĩa
-☐ Code được phân rã hợp lý
-☐ Error handling
-☐ Edge cases
-☐ Meaningful tests
-☐ README + hướng dẫn chạy
-☐ Git history rõ ràng
-☐ Demo được
-☐ Giải thích được design decisions
+Bạn hướng tới khả năng:
 
-📄 Yêu cầu chính thức: FINAL_PROJECT.md
+- Viết chương trình Python nhỏ, rõ ràng và có cấu trúc.
+- Sử dụng biến, cấu trúc dữ liệu, điều kiện, vòng lặp, hàm và module.
+- Đọc/ghi file, xử lý lỗi và kiểm tra code.
+- Làm quen với API/HTTP và OOP cơ bản.
+- Dùng Git/GitHub để lưu lại lịch sử làm việc.
+- Hoàn thành và giải thích được một project Python của chính mình.
 
-🎯 Đầu ra sau 15 tuần
-<div align="center">
-From
-"Em biết Python syntax."
+## 🏁 Bắt đầu học
 
-→
-To
-"Em có thể xây, test, debug và giải thích một chương trình Python."
+**Việc cần làm ngay:** mở [SETUP.md](SETUP.md) nếu chưa cài môi trường, sau đó vào [Tuần 01](weeks/week-01-hello-python/README.md).
 
-</div>
-🐍 Python fundamentals
-Variables, types, conditionals, loops.
-Functions, scope và decomposition.
-list, tuple, dict, set.
-Strings và regex cơ bản.
-Type hints.
-🛠️ Reliable programming
-File, CSV, JSON và pathlib.
-Exceptions và traceback.
-Defensive coding.
-Testing với pytest.
-Edge cases và invalid input.
-Debugging có phương pháp.
-🧱 Software structure
-Modules và packages.
-Dependencies.
-CLI cơ bản.
-HTTP API.
-JSON response.
-OOP, composition và inheritance cơ bản.
-🌿 Developer workflow
-Git/GitHub.
-Commit history.
-README/documentation.
-Test-driven self-check.
-Demo và giải thích design decisions.
-🔀 Python Journey vs Python Mastery
-<div align="center">
-🐍 Python Journey	🧠 Python Mastery
-Can I program reliably?	Can I engineer good software?
-Python fundamentals	Advanced Python
-Functions & data	Advanced abstractions
-Basic testing	Advanced testing
-Debugging	Profiling & performance
-Basic modules	Architecture
-Basic OOP	Design patterns
-Simple HTTP/API	Advanced concurrency
-
-</div>
-⏭️ Để dành cho Python Mastery
-advanced decorators · iterators/generators · protocols · descriptors · metaclasses · mocking · asyncio · architecture · profiling · packaging
-
-📁 Cấu trúc repository
-python-journey/
-│
-├── 📄 README.md
-├── 📄 SYLLABUS.md
-├── 📄 SETUP.md
-├── 📄 STYLE_GUIDE.md
-├── 📄 PROGRESS.md
-├── 📄 FINAL_PROJECT.md
-│
-├── 📂 weeks/
-│   ├── 01-hello-python/
-│   ├── 02-variables-types/
-│   ├── ...
-│   └── 15-capstone-project/
-│
-├── 📂 projects/
-│   └── vuacoc-bot-journey/
-│
-├── 📂 scripts/
-├── 📂 tests/
-├── 📂 templates/
-├── 📂 cheatsheets/
-└── 📂 assets/
-
-📚 Pattern của mỗi tuần
-<div align="center">
-README
-  ↓
-📖 Notes / Examples
-  ↓
-✏️ Exercises
-  ↓
-🧪 Self-check / Tests
-  ↓
-🔥 Challenge
-  ↓
-🚀 Mini-project
-
-</div>
-✨ Code Style
-Python Journey ưu tiên:
-
-Readable code over clever code.
-
-def calculate_average(scores: list[float]) -> float:
-    """Return the average score, or 0.0 for an empty list."""
-    if not scores:
-        return 0.0
-
-    return sum(scores) / len(scores)
-
-Nguyên tắc
-✅ Nên	❌ Tránh
-Tên biến rõ nghĩa	Tên kiểu x, data2, foo
-Hàm có trách nhiệm rõ	Hàm làm quá nhiều việc
-Test behavior	Chỉ test implementation
-Comment why	Comment lặp lại code
-with khi mở file	Quản lý file thủ công
-Xử lý exception cụ thể	Bare except:
-
-🚀 Bắt đầu
-1️⃣ Clone
-git clone https://github.com/CocAgent/python-journey.git
-cd python-journey
-
-2️⃣ Setup
-Mở:
-
-SETUP.md
-
-hoặc đọc trực tiếp:
-
-# macOS / Linux
-cat SETUP.md
-
-# Windows PowerShell
-Get-Content SETUP.md
-
-3️⃣ Start Week 01
-weeks/week-01-hello-python/
-
-📚 Tài liệu chính
-📄 File	Nội dung
-SYLLABUS.md	🗺️ Curriculum 15 tuần
-PROGRESS.md	📈 Theo dõi tiến trình
-SETUP.md	⚙️ Cài đặt môi trường
-STYLE_GUIDE.md	✨ Quy tắc viết code
-FINAL_PROJECT.md	🎓 Capstone requirements
-
-📖 Story Mode
-Nếu thích học Python qua storytelling:
-
-📕 Giới thiệu Python qua câu chuyện Cóc và Dế
-📗 Hello Python
-📘 Biến và chuỗi
-📙 Hàm và phân rã vấn đề
-<div align="center">
-🏁 Ready?
-Learn it.
-Build it.
-Test it.
-Understand it.
-Improve it.
-<br>
-🐍 Python Journey
-
-Part of the CocAgent Python Learning Path
-
-</div>
+Học chậm cũng được — quan trọng là thực hành đều, hiểu điều mình viết và tiến bộ sau mỗi tuần. 🐍
